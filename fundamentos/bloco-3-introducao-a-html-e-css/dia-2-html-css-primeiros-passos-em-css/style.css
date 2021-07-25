@@ -1,0 +1,10 @@
+body {font-size: 16px ;}
+        h1 {
+          font-size: 65px;
+          font-family: sans-serif; }
+          p {font-size: 3em;}
+          #cor-do-titulo1{color: orange;}
+          .paragrafo-lista{background-color: blue ;
+          color: rgb(157, 184, 219); }
+          #paragrafo{font-weight: 600;}
+          #lista-nao-ordenada{background-color: bisque;}
