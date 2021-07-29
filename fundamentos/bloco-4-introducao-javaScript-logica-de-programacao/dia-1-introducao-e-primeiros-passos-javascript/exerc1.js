@@ -42,15 +42,39 @@ else {
     console.log(0);
 };
 //exercicio 5
-let i = 50
-let j = 40
-let l = 70
-let m = i+j+l
+let i = 50;
+let j = 60;
+let l = 70;
+let m = i+j+l;
 if (m == 180 ){
     console.log(true);
 }
-else if ()
+else if ( i<0 || j<0 || l<0){
+    console.log('erro isso nao e angulo');}
 else {
-    console.log('erro');
+    console.log(false);
+};
+//exercicio 6
+let pecaDeXadrez = "";
+switch (){
+    case "Cavalo":
+    console.log("2 casas para frente ou para trás e em seguida 1 casa para a direita ou para a esquerda");
+    break;
+    case "Torre":
+    console.log("frente e para trás, para a direita e para a esquerda");
+    break;
+    case "bispo":
+    console.log("na diagonal mantendo-se sempre nas casas de mesma cor que se encontrava no início do jogo");
+    break;
+    case "rainha":
+        console.log("pode se movimentar para todos os lados ");
+        break;
+    case "rei":
+        console.log("1 casa em qualquer direção");
+        break;
+    case "peao":
+            console.log("só se movimenta para frente");
+            break;
+    default:
+        console.log("deu erro ai");
 }
-aaaaaaaaaaaaaaaaaaaaaaaaaaaa  socorrrrooooooooo
