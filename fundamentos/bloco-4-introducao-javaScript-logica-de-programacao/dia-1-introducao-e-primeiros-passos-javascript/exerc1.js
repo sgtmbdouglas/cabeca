@@ -55,12 +55,13 @@ else {
     console.log(false);
 };
 //exercicio 6
-let pecaDeXadrez = "";
-switch (){
-    case "Cavalo":
+
+let pecaDeXadrez = "TORRE";
+switch (pecaDeXadrez.toLowerCase()){
+    case "cavalo":
     console.log("2 casas para frente ou para trás e em seguida 1 casa para a direita ou para a esquerda");
     break;
-    case "Torre":
+    case "torre":
     console.log("frente e para trás, para a direita e para a esquerda");
     break;
     case "bispo":
@@ -72,9 +73,10 @@ switch (){
     case "rei":
         console.log("1 casa em qualquer direção");
         break;
-    case "peao":
+    case "reao":
             console.log("só se movimenta para frente");
             break;
     default:
         console.log("deu erro ai");
 }
+//exercicio 7
