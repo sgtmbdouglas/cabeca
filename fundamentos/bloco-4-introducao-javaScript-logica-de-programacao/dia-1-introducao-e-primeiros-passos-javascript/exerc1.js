@@ -219,7 +219,7 @@ O último cálculo para conseguir o salário líquido é R$ 2.670,00 - R$ 57,45 
 Resultado: R$ 2.612,55.
 Dica: que tal identificar as alíquotas com variáveis de nomes explicativos?
  */
-let salariobruto=3000;
+let salariobruto=5000;
 let inss;
 let ir;
 if (salariobruto<=1556.94){
