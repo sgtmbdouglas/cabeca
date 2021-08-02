@@ -241,3 +241,34 @@ if (inss<=1903.98){
 }else{ ir=inss-869.36;
 }
 console.log('salario liquido :', inss-ir,'$');
+let i = 50
+let j = 60
+let l = 70
+let m = i+j+l
+if (m == 180 ){
+    console.log(true);
+}
+else if (i<0 || j<0 || l<0){
+    console.log('erro');
+}
+else {
+    console.log('false');
+}
+//exercicio 6
+/*
+Escreva um programa que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz.Como desafio, faça o programa funcionar tanto se receber o nome
+ de uma peça com letras maiúsculas quanto com letras minúsculas, sem aumentar a quantidade de condicionais.
+
+Como dica, você pode pesquisar uma função que faz uma string ficar com todas as letras minúsculas (lower case) .
+Se a peça passada for inválida, o programa deve retornar uma mensagem de erro.
+Exemplo: bishop (bispo) -> diagonals (diagonais)
+*/
+let pecaXadrez = "cavalo"
+switch (pecaXadrez) {
+    case "cavalo":
+        console.log("pare");
+        break;
+    case "bispo":
+        console.log("anda na lateral")
+        
+}in
