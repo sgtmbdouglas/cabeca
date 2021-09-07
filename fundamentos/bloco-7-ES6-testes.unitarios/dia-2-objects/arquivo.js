@@ -25,3 +25,7 @@ listSkills(student1);
 
 console.log('Estudante 2');
 listSkills(student2);
+function multiply(a, b){
+  return (a * b)
+ }
+ console.log(multiply(2, 3))
