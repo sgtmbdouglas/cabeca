@@ -21,6 +21,7 @@ const OdC = {
 // "operadores lógicos também podem ser utilizados nos mesmos métodos para leitura e atualização de documentos do MongoDB.
 // Eles ajudam a elaborar consultas mais complexas, contendo cláusulas para retornar documentos que satisfaçam os filtros"
 // operadores lógicos
+// filtros avançados
 const FA = {
     $not: "not, inverte o resultado da expressão",
     // { campo: { $not: { <operador ou expressão> } } }
@@ -53,7 +54,6 @@ const OL = {
     // Ou não contêm o atributo price e nem o atributo sale
     // FA.not: ""
 }
-// filtros avançados com
 // operador de elemento
 const OE = {
     $exists: "exists, verifica a existência de um atributo"
