@@ -1,0 +1,1 @@
+tupla e uma lista imutavel, nao entendi tipo uma contante JS?
